@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from .models import Playlist
-from content.models import Content
+from .models import Content
+from playlist.models import Playlist
 
 class ContentSerializer(serializers.ModelSerializer):
     class Meta:
