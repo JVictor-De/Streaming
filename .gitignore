@@ -66,6 +66,10 @@ node_modules/
 *.log
 *.tmp
 
+
+# Django migrations
+db.sqlite3
+
 # Optional: ignore migrations if you intentionally don't track them
 # content_app/migrations/*.pyc
 # content_app/migrations/__pycache__/
